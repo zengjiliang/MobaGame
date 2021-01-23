@@ -19,6 +19,15 @@
     <Filter Include="3rd\libuv\src\win">
       <UniqueIdentifier>{216e7501-62d9-4319-a061-76e1089662bd}</UniqueIdentifier>
     </Filter>
+    <Filter Include="code\server">
+      <UniqueIdentifier>{1928982a-0a92-4b47-9a21-9e6c3caf2e57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="code\connection">
+      <UniqueIdentifier>{397ef9b5-e20b-4736-bde5-23213c16b307}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="code\utils">
+      <UniqueIdentifier>{fac23b38-40fa-4ca0-8def-516b1171d40c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\code\main.cpp">
@@ -117,6 +126,15 @@
     <ClCompile Include="..\..\3rd\libuv\src\win\winsock.c">
       <Filter>3rd\libuv\src\win</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\code\utils\utils.c">
+      <Filter>code\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\code\connection\uv_tcp.c">
+      <Filter>code\connection</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\code\connection\uv_udp.c">
+      <Filter>code\connection</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\3rd\libuv\include\android-ifaddrs.h">
@@ -193,6 +211,15 @@
     </ClInclude>
     <ClInclude Include="..\..\3rd\libuv\src\win\winsock.h">
       <Filter>3rd\libuv\src\win</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\utils\utils.h">
+      <Filter>code\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\connection\uv_tcp.h">
+      <Filter>code\connection</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\code\connection\uv_udp.h">
+      <Filter>code\connection</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

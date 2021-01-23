@@ -260,6 +260,6 @@ paket-files/
 __pycache__/
 *.pyc
 
-.Library
-.Logs
-.Packages
+.Library/
+.Logs/
+.Packages/

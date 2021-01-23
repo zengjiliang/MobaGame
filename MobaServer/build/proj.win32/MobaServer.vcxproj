@@ -158,7 +158,10 @@
     <ClCompile Include="..\..\3rd\libuv\src\win\util.c" />
     <ClCompile Include="..\..\3rd\libuv\src\win\winapi.c" />
     <ClCompile Include="..\..\3rd\libuv\src\win\winsock.c" />
+    <ClCompile Include="..\..\code\connection\uv_tcp.c" />
+    <ClCompile Include="..\..\code\connection\uv_udp.c" />
     <ClCompile Include="..\..\code\main.cpp" />
+    <ClCompile Include="..\..\code\utils\utils.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\3rd\libuv\include\android-ifaddrs.h" />
@@ -186,6 +189,9 @@
     <ClInclude Include="..\..\3rd\libuv\src\win\stream-inl.h" />
     <ClInclude Include="..\..\3rd\libuv\src\win\winapi.h" />
     <ClInclude Include="..\..\3rd\libuv\src\win\winsock.h" />
+    <ClInclude Include="..\..\code\connection\uv_tcp.h" />
+    <ClInclude Include="..\..\code\connection\uv_udp.h" />
+    <ClInclude Include="..\..\code\utils\utils.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
